@@ -113,10 +113,22 @@ hr{
 	grid-template-columns:auto auto auto;
 	grid-gap: 10px;
 }
-img{
+#skill img{
 	transition: 0.5s;
 }
-img:hover {
+#skill img:hover {
+  box-shadow: 0 0 25px currentColor , 0 0 10px currentColor;
+}
+#product img{
+	transition: 0.5s;
+}
+#product img:hover {
+  box-shadow: 0 0 25px currentColor , 0 0 10px currentColor;
+}
+#getin img{
+	transition: 0.5s;
+}
+#getin img:hover {
   box-shadow: 0 0 25px currentColor , 0 0 10px currentColor;
 }
 .container{
