@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto:wght@100;300;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+	display:flex;
+	justify-content: space-around;
+	padding: 5px 150px;
+	position: fixed;
+	background-color: lightgray;
+	align-items: center;
+	width: 80%;
+	z-index:99;
+}
+header ul a{
+	text-decoration: none;
+	color: black;
+}
+header ul a:hover{
+	color: brown;
+	font-weight: 900;
+}
+header img{
+	width: 70px;
+	height: 100%;
+}
+header ul li{
+	display: inline;
+	padding: 20px;
+	
+	
+}
+#about{
+	padding: 30px 20px;
+	height: 100vh;
+	background-position: center;
+}
+#about .anh1{
+	text-align: center;
+	padding: 20px;
+}
+#about h1{
+	font-family: 'Paytone One', sans-serif;
+	font-size: 90px;
+	font-weight: 100;
+	color: #2949BB;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color: hotpink;
+}
+span{
+	font-size: 60px;
+	color:#2949BB; 
+}
+#about img{
+	width: 98%;
+	align-items: center;
+}
+#skill{
+	padding:100px 20px;
+
+}
+h1{
+	font-family: 'Paytone One', sans-serif;
+	font-size: 50px;
+	font-weight: 100;
+	color: #2949BB;
+}
+hr{
+	border: 1px ridge #2949BB;
+	margin-bottom: 50px;
+}
+#skill img{
+	width: 350px;
+}
+#skill .anh2{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+}
+#product{
+	padding:100px 20px;
+}
+#product img{
+	width: 470px;
+}
+#product .anh3{
+	align-items: center;
+	display: grid;
+	grid-template-columns:auto auto auto;
+	grid-gap: 10px;
+}
+#getin{
+	padding:100px 20px;
+}
+#getin img{
+	width: 470px;
+}
+#getin .anh4{
+	align-items: center;
+	display: grid;
+	grid-template-columns:auto auto auto;
+	grid-gap: 10px;
+}
+img{
+	transition: 0.5s;
+}
+img:hover {
+  box-shadow: 0 0 25px currentColor , 0 0 10px currentColor;
+}
+.container{
+	background-color: lightgray;
+	padding: 20px;
+}
+.container p{
+	text-align: center;
+}
